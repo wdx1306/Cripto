@@ -1,0 +1,75 @@
+body{
+background-image: url(../imagenes/fondo.jpg);
+background-position: center;
+
+/*Para que la imagen de fondo no se repita */
+
+background-repeat: no-repeat;
+
+/* La imagen se fija en la ventana de visualización para que la altura de la imagen no supere a la del contenido */
+
+background-attachment: fixed;
+
+/* La imagen de fondo se reescala automáticamente con el cambio del ancho de ventana del navegador */
+
+background-size: cover;
+
+/* Se muestra un color de fondo mientras se está cargando la imagen
+
+de fondo o si hay problemas para cargarla */
+
+ width: auto;
+   height: auto;
+	 
+}
+
+.icon{
+display: inline-block;
+font-size: 44px;
+animation: float 5s ease-in-out;
+
+}
+
+.ri-facebook-circle-line{
+    animation-delay: 1s;
+
+}
+.ri-whatsapp-line{
+    animation-delay: 2s;
+}
+@keyframes float: {
+    0%{
+        transform: translateY(0);
+
+    }
+    50%{
+
+        transform: translateY(-15px);
+    }
+    100%{
+
+        transform: translateY(0);
+    }
+
+
+}
+
+.encabezado{
+    background-color: #006ad5;
+    /* Hacia abajo*/
+    height: 100px;
+    /*Hacia los lados*/
+    width: auto;
+
+margin-top:0px;
+}
+
+.pie_pagina{
+    background-color: #006ad5;
+    /* Hacia abajo*/
+    height: 100px;
+    /*Hacia los lados*/
+    width: auto;
+
+margin-top:100px;
+}
