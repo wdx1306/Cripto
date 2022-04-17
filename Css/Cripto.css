@@ -34,10 +34,11 @@ animation: float 5s ease-in-out;
     animation-delay: 1s;
 
 }
+
 .ri-whatsapp-line{
     animation-delay: 2s;
 }
-@keyframes float{
+@keyframes float:{
     0%{
         transform: translateY(0);
 
